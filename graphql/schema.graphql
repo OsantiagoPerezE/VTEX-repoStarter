@@ -1,0 +1,9 @@
+type Query {
+  estimateShipping(productId: ID!, postalCode: String!): [ShippingEstimate]
+}
+
+type ShippingEstimate {
+  carrierName: String
+  estimatedDays: Int
+  price: Float
+}

@@ -1,0 +1,8 @@
+query EstimateShipping($productId: ID!, $postalCode: String!) {
+  estimateShipping(productId: $productId, postalCode: $postalCode)
+    @context(provider: "challenge.shipping-estimate-badge") {
+    carrierName
+    estimatedDays
+    price
+  }
+}

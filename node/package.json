@@ -1,0 +1,12 @@
+{
+  "name": "shipping-estimate-badge-node",
+  "private": true,
+  "version": "0.1.0",
+  "dependencies": {
+    "@vtex/api": "^6.46.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.18.0",
+    "typescript": "3.9.7"
+  }
+}

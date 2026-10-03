@@ -1,0 +1,6 @@
+{
+  // Declaración de interfaces de los bloques que expone este app.
+  "shipping-estimate-badge": {
+    "component": "ShippingEstimateBadge"
+  }
+}

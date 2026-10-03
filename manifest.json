@@ -1,0 +1,29 @@
+{
+  "vendor": "challenge",
+  "name": "shipping-estimate-badge",
+  "version": "0.1.0",
+  "title": "Shipping Estimate Badge",
+  "description": "Muestra en la PDP un estimado de entrega (días, transportadora y costo) para el producto actual.",
+  "builders": {
+    "react": "3.x",
+    "store": "0.x",
+    "graphql": "1.x",
+    "node": "6.x"
+  },
+  "dependencies": {
+    "vtex.product-context": "0.x",
+    "vtex.order-manager": "0.x",
+    "vtex.render-runtime": "8.x",
+    "vtex.css-handles": "1.x"
+  },
+  "policies": [
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "shipping-mock.example.com",
+        "path": "/*"
+      }
+    }
+  ],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

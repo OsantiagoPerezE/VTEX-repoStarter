@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "target": "es2017",
+    "noEmit": true,
+    "skipLibCheck": true
+  },
+  "include": ["./**/*.tsx", "./**/*.ts", "./typings/*.d.ts"]
+}

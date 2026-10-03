@@ -1,0 +1,9 @@
+{
+  // Bloque de ejemplo para usar el badge en la página de producto (PDP).
+  "shipping-estimate-badge#pdp": {
+    "props": {
+      "showCarrierName": true,
+      "blockClass": "pdp"
+    }
+  }
+}
